@@ -1,1 +1,24 @@
+# Secrets — never commit these
+.env
+.env.*
+*.pem
+*.key
+cl.pem
+
+# Python
 venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Logs
+*.log
+
+# OS / editor junk
+.DS_Store
+.vscode/
+*.pem
+.env
+venv/
+__pycache__/
